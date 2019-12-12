@@ -35,6 +35,10 @@
     display: inline-block;
     cursor: pointer;
 
+    &.checked {
+      text-decoration: line-through;
+    }
+
     &::before {
       content: "";
       border-color: $color-primary;
